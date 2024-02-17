@@ -18,7 +18,7 @@ def predict_diabetes(input_data):
     probability = model.predict_proba(input_data)
     return prediction, probability
 
-# Streamlit app layout
+# Streamlit app layout 
 st.title('Diabetes Risk Prediction')
 
 # Form for user input
