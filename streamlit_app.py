@@ -4,9 +4,10 @@ import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import StandardScaler
 import numpy as np
+import joblib
 
-# Load your model (Assuming it's trained and saved; otherwise, include training here or load a pre-trained model)
-# model = joblib.load('path_to_your_saved_model.pkl')
+# Load the trained model
+model = joblib.load('dia_risk_prediction_model.pkl')
 
 # Placeholder for an actual model loading mechanism
 model = RandomForestClassifier()  # Placeholder
